@@ -1,4 +1,4 @@
-
+/*General*/
 
 body {
   background-image: url('assets/images/Background\ 1.jpg');
@@ -10,7 +10,10 @@ body {
   display: flex; 
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
+
+/* Différentes Etapes */
 
 .step {
   display : flex; 
@@ -25,16 +28,69 @@ body {
 
 .step2 {
   display: none; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px; 
+  height: 600px; 
+  background-color: #6EAFFD;
+  border-radius: 30px;
 }
 
 .step3 {
   display: none; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px; 
+  height: 600px; 
+  background-color: #6EAFFD;
+  border-radius: 30px;
 }
 
+
+
+/* Ecrans de fin */
+
 .win {
-  display: none; 
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px; 
+  height: 600px; 
+  background-color: #6EAFFD;
+  border-radius: 30px; 
 }
 
 .lose {
   display: none; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px; 
+  height: 600px; 
+  background-color: #6EAFFD;
+  border-radius: 30px;
+}
+
+
+/* différents titres */ 
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.titleWin {
+  color: #1BD492;
+  font-size: 60px;
+  font-weight: 900;
+
+}
+
+.titleLose {
+  color: #FF9473;
+  font-size: 60px;
+  font-weight: 900;
 }
