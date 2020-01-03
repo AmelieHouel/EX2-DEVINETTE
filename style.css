@@ -17,7 +17,7 @@ body {
 /* Différentes Etapes */
 
 .step {
-  display : flex; 
+  display : none; 
   flex-direction: column; 
   align-items: center;
   justify-content: center;
@@ -52,7 +52,7 @@ body {
 
 /* Spécifications-Etapes */ 
 
-textarea {
+input {
   width: 150px;
   height: 150px; 
   border-radius: 50%;
@@ -94,7 +94,7 @@ label {
 }
 
 .lose {
-  display: none; 
+  display: flex; 
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -113,14 +113,7 @@ label {
   font-weight: 500;
   border-radius: 30px;
 }
-.end {
-  width: 390px;
-  height: 63px;
-  font-size: 30px; 
-  font-weight: 500;
-  border-radius: 30px;
-  margin: 5%; 
-}
+
 
 
 /* différents titres */ 
