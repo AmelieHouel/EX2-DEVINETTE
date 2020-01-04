@@ -10,6 +10,8 @@ var step3 = document.querySelector('section.step3');
 var win = document.querySelector('section.win');
 var lose = document.querySelector('section.lose');
 
+var body = document.querySelector('body');
+
 var solution = Math.floor(Math.random() * 10) + 1;
 console.log(solution);
 
@@ -49,6 +51,7 @@ function stepOne() {
     if (data1 == solution) {
       step1.style.display='none';
       win.style.display='flex';
+      body.style.backgroundImage = 'url("/assets/images/Background3.jpg")';
   
     } else {
       step1.style.display='none';
@@ -67,6 +70,7 @@ function stepTwo() {
     if (data2 == solution) {
       step2.style.display='none';
       win.style.display='flex';
+      body.style.backgroundImage = 'url("/assets/images/Background3.jpg")';
   
     } else {
       step2.style.display='none';
@@ -85,10 +89,12 @@ function stepThree() {
     if (data3 == solution) {
       step3.style.display='none';
       win.style.display='flex';
+      body.style.backgroundImage ='url("/assets/images/Background3.jpg")';
   
     } else {
       step3.style.display='none';
       lose.style.display='flex';
+      body.style.backgroundImage ='url("/assets/images/Background2.jpg")';
     } 
 
   }
