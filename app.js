@@ -53,6 +53,9 @@ function stepOne() {
       win.style.display='flex';
       body.style.backgroundImage = 'url("/assets/images/Background3.jpg")';
   
+    } else if((data1 === "")||(data1 === null)) {
+      alert("remplir le champ");
+      break;
     } else {
       step1.style.display='none';
       step2.style.display='flex';
@@ -72,6 +75,9 @@ function stepTwo() {
       win.style.display='flex';
       body.style.backgroundImage = 'url("/assets/images/Background3.jpg")';
   
+    } else if((data2 === "")||(data2 === null)) {
+      alert("remplir le champ");
+      break;
     } else {
       step2.style.display='none';
       step3.style.display='flex';
@@ -91,6 +97,9 @@ function stepThree() {
       win.style.display='flex';
       body.style.backgroundImage ='url("/assets/images/Background3.jpg")';
   
+    } else if((data3 === "")||(data3 === null)) {
+      alert("remplir le champ");
+      break;
     } else {
       step3.style.display='none';
       lose.style.display='flex';
